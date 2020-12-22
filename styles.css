@@ -1,0 +1,94 @@
+body,
+html,
+.wrapper{
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper{
+    background-image: linear-gradient(rgb(93, 211, 255),rgb(65, 131, 242));
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+#trash{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+#check{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;;
+}
+
+.input-line{
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.button{
+    margin-left: 20px;
+    padding: 3px 13px;
+    background-color: rgb(60, 111, 251);
+}
+
+.button:hover{
+    cursor: pointer;
+    background-color: rgb(88, 129, 240);
+}
+
+input:focus{
+    outline: none;
+}
+
+.header{
+    font-size: 50px;
+    color: rgb(231, 243, 254);
+    padding: 0 100px;
+    margin-bottom: 20px;
+}
+
+input{
+    border: none;
+}
+
+#list-cont{
+    flex-grow:6;
+    background-color: rgb(255, 255, 255);
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 20px;
+}
+
+.blank{
+    flex-grow:1;
+}
+
+.list{
+    border-bottom: 1px solid black;
+    padding: 2px;
+    margin: 6px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-txt{
+    font-size: 20px;
+    color: rgb(160, 160, 160);
+}
+
+.imgs{
+    display: flex;
+    flex-direction: row;
+}
